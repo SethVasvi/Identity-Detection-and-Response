@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#dashboard-content {
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.btn-secondary {
+    margin-right: 10px;
+}

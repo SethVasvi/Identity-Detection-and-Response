@@ -1,0 +1,135 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#map {
+    height: 400px;
+}
+
+#dashboard-content {
+    display: none;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 40vh;
+    width: 80vw;
+}
+
+.chart {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}

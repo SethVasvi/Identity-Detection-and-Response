@@ -1,0 +1,6 @@
+Flask==2.0.3
+Flask-SocketIO==5.1.1
+requests==2.25.1
+psutil==5.8.0
+chart.js==2.9.4
+leaflet==1.7.1
